@@ -2,4 +2,4 @@ RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} !(.*)/$
-RewriteRule ^(.*)$ https://andrescq95.github.io/$1/ [L,R=301]
+RewriteRule ^(.*)$ https://andrescq95.github.io [L,R=301]
